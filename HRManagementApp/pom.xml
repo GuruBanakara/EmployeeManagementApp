@@ -10,7 +10,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<spring_version>5.2.1.RELEASE</spring_version>
+		<spring_version>5.2.7.RELEASE</spring_version>
 		<javax.mail_version>1.6.2</javax.mail_version>
 		<mysql.version>5.1.10</mysql.version>
 	</properties>
@@ -26,7 +26,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
-			<version>5.2.1.RELEASE</version>
+			<version>${spring_version}</version>
 		</dependency>
 
 		<dependency>
@@ -38,7 +38,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
-			<version>5.2.1.RELEASE</version>
+			<version>${spring_version}</version>
 		</dependency>
 
 
