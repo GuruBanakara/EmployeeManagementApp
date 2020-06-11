@@ -1,0 +1,127 @@
+body {
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+}
+
+.container {
+	width: 90%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.hide input{
+	color: GrayText;
+	background-color: ThreeDLightShadow;
+	cursor: unset;
+	border: 0px;
+}
+
+header {
+	background-color: #e8491a;
+	min-height: 95px;
+}
+
+header h1 {
+	margin: 0;
+	padding: 30px 0 0 40px;
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#branding {
+	float: left;
+}
+
+.current a {
+	color: lime;
+}
+
+header ul {
+	list-style: none;
+	margin: 0;
+	float: right;
+	margin-top: 25px
+}
+
+header li {
+	display: inline;
+}
+
+header a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 20px
+}
+
+header a:hover {
+	color: #ccc;
+}
+
+#showcase {
+	background-image: url('../img/dev.jpg');
+	background-size: cover;
+	background-position: center center;
+	min-height: 400px;
+	text-align: center;
+	color: #ffffff
+}
+
+#showcase h1 {
+	font-size: 40px;
+	line-height: 1.5em;
+}
+
+#showcase p {
+	font-size: 20px;
+	word-spacing: 5px;
+}
+
+.form-group label {
+	display: block;
+	margin-top: 10px;
+}
+
+.form-group input {
+	height: 30px;
+	width: 250px;
+}
+
+.button {
+	background-color: #e8491a;
+	margin:15px 10px 0 0;
+	color: #ffffff;
+	padding: 10px;
+	border: 0;
+}
+
+.list {
+	margin-top: 10px;
+	width: 100%;
+}
+
+table.list th {
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.list td {
+	border: 2px solid red;
+}
+
+.list td a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.list td a:hover {
+	color: #65531b;
+	font-weight: bold;
+}
