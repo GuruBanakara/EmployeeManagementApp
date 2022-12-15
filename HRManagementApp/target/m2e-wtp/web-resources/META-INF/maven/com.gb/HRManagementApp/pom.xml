@@ -10,7 +10,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<spring_version>5.2.1.RELEASE</spring_version>
+		<spring_version>5.2.20.RELEASE</spring_version>
 		<javax.mail_version>1.6.2</javax.mail_version>
 		<mysql.version>5.1.10</mysql.version>
 	</properties>
